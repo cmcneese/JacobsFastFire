@@ -10,5 +10,7 @@
 }
 
 .hero {
-  background: '/app/img/FireEscapes.jpg';
+  display: flex;
+  align-items: center;
+  background: url('./img/FireEscapes.jpg')top center/cover fixed;
 }
