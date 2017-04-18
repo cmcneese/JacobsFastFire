@@ -15,3 +15,12 @@
   background: url('./img/FireEscapes.jpg')top center/cover fixed;
 
 }
+
+.nav-bar__right {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
