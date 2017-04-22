@@ -5,12 +5,14 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
 //
-// * {
-//   background: white;
-// }
+* {
+margin: none;
+}
 .nav-bar__right {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: auto;
 
 }
 
