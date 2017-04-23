@@ -8,22 +8,24 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 * {
 margin: none;
 }
+
 .nav-bar__right {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
+  margin: .5rem;
 
 }
-
-.hero {
-  display: flex;
-  align-items: center;
-  background: url('./img/FireEscapes.jpg') top center/cover fixed;
-
-}
-
 
 a {
   text-decoration: none;
+  color: black;
+  margin: 1rem;
+}
+
+.hero_img {
+  display: flex;
+  align-items: center;
+  // background: url('./img/FireEscapes.jpg') top center/cover fixed;
+  background-color: rebeccapurple;
 }
