@@ -24,8 +24,17 @@ a {
 }
 
 .hero_img {
+  // display: flex;
+  // align-items: center;
+  // background: url('FireEscapes.jpg');
   display: flex;
-  align-items: center;
-  // background: url('./img/FireEscapes.jpg') top center/cover fixed;
-  background-color: rebeccapurple;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0rem;
+      background: black;
+      text-align: center;
+      text-transform: uppercase;
+      filter: grayscale(60%);
+      background: url('./img/FireEscapes.jpg') top center/cover fixed;
+      min-height: 90vh;
 }
