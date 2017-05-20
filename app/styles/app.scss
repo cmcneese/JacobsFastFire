@@ -6,7 +6,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 //
 * {
-  margin: none;
+  margin: 0;
 }
 
 .nav-bar {
@@ -33,6 +33,10 @@ a {
   filter: grayscale(60%);
   background: url('./img/FireEscapes.jpg') top center/cover fixed;
   min-height: 75vh;
+}
+
+.main-content {
+  margin: 1rem;
 }
 
 .main-content__header {
