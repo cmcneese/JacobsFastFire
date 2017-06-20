@@ -9,12 +9,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   margin: 0;
 }
 
-.nav-bar__left {
-  display: flex;
-
-}
-
-.nav-bar__right {
+.nav-bar--fixed {
   display: flex;
   justify-content: center;
   margin: 0;
