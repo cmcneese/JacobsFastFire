@@ -40,6 +40,12 @@ a {
   text-decoration: none;
 }
 
+.nav-bar__right {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
 .hero_img {
   display: flex;
   align-items: center;
