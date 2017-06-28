@@ -16,7 +16,7 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 25vh;
 }
 
 nav {
@@ -47,10 +47,11 @@ a {
   z-index: 1;
 }
 
-.hero_img {
+.hero-img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 100vh;
   min-height: 75vh;
   padding: 0;
   background: url('./img/FireEscapes.jpg') top center/cover fixed;
