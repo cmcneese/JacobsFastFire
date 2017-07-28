@@ -13,13 +13,19 @@ body {
   margin: 0;
 }
 
-
 p {
   margin: 2rem;
 }
 
 h2 {
   margin: 2rem;
+}
+
+li {
+  color: gray;
+  font-style: italic;
+  text-decoration: none;
+  list-style: none;
 }
 
 .app {
