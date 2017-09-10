@@ -103,3 +103,9 @@ a {
 .main-content__bottom {
   background: url('www.placecage.com/400/400') bottom center/cover fixed;
 }
+
+.services-card {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
