@@ -7,19 +7,28 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 body {
   margin: 0;
 }
 
-
 p {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 h2 {
-  margin: 1rem;
+  margin: 1.5rem;
+}
+
+li {
+  color: gray;
+  font-style: italic;
+  text-decoration: none;
+  list-style: none;
 }
 
 .app {
@@ -54,7 +63,7 @@ a {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.8);
   z-index: 1;
 }
 
@@ -86,6 +95,17 @@ a {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.services-card {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.services-card_item {
+  margin: 1rem;
+
 }
 
 .contact-img {
