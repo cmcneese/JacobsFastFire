@@ -109,8 +109,17 @@ a {
   border-radius: 5px;
   padding: 0.5rem;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,4);
+}
 
+.products-card {
+  disply: flex;
+  align-items: center;
+  margin: 5rem;
+}
 
+.products-card_item {
+  flex-wrap: wrap;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,3);
 }
 
 .contact-img {
