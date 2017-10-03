@@ -112,13 +112,14 @@ a {
 }
 
 .products-card {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
   margin: 5rem;
   justify-content: space-between;
 }
 
 .products-card_item {
+  display: flex;
   flex-wrap: wrap;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,3);
 }
