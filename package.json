@@ -9,7 +9,8 @@
     "build": "ember build",
     "lint": "sass-lint",
     "esfix": "eslint src --fix && eslint tests --fix",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist demofastfire.surge.sh",
+
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist odd-clover.surge.sh",
     "setup:vue": "yarn add vue vue-router && yarn add --dev rollup-plugin-vue eslint-plugin-html"
   },
   "author": "",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "^6.22.0",
     "broccoli": "^1.1.0",
     "broccoli-autoprefixer": "^4.1.0",
