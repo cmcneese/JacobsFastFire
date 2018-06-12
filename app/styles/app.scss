@@ -146,7 +146,9 @@ a {
 }
 
 .services-card {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  padding: .2rem;
+
 }
