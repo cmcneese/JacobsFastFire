@@ -39,6 +39,13 @@ li {
   background-color: #fff;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -80,10 +87,6 @@ a {
   text-align: center;
   text-transform: uppercase;
   filter: grayscale(60%);
-}
-
-.main-content {
-  // margin: 1rem;
 }
 
 .main-content__header {
