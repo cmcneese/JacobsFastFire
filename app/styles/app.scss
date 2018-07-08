@@ -40,7 +40,9 @@ li {
 }
 
 .logo-container {
-  height: 10em;
+  display: flex;
+  flex-direction: column;
+  height: 40em;
   position: relative;
   justify-content: center;
 }
