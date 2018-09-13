@@ -114,8 +114,11 @@ a {
   width: 100%;
 }
 
-.services-card {
+.wrapper {
   display: flex;
+}
+
+.services-card {
   align-items: center;
   margin: 5rem;
   max-width: 100%;
