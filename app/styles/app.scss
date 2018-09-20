@@ -39,6 +39,20 @@ li {
   background-color: #fff;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  height: 40em;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -82,10 +96,6 @@ a {
   filter: grayscale(60%);
 }
 
-.main-content {
-  // margin: 1rem;
-}
-
 .main-content__header {
   display: flex;
   justify-content: center;
@@ -104,8 +114,11 @@ a {
   width: 100%;
 }
 
-.services-card {
+.wrapper {
   display: flex;
+}
+
+.services-card {
   align-items: center;
   margin: 5rem;
   max-width: 100%;
@@ -118,7 +131,6 @@ a {
 }
 
 .products-card {
-  display: flex;
   flex-wrap: wrap;
   margin: 5rem;
   justify-content: space-between;
