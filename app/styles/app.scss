@@ -127,10 +127,11 @@ a {
 }
 
 .wrapper-products {
-  display: flex;
+
 }
 
 .products-card {
+    display: flex;
     align-items: center;
     margin: 5rem;
     max-width: 100%; 
