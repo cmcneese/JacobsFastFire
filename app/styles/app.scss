@@ -132,6 +132,7 @@ a {
 
 .products-card {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 5rem;
     max-width: 100%; 
