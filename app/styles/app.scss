@@ -37,18 +37,53 @@ li {
     background-color: #fff;
 }
 
-.logo-container {
+.hero-container {
     display: flex;
     flex-direction: column;
     height: 40em;
     justify-content: center;
 }
 
-.logo {
+.hero {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
+}
+
+.scroll {
+    justify-content: center;
+}
+
+
+.scroll::before {
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: .1rem solid #8e9ea5;
+    opacity: .8;
+    border-radius: 50%;
+    font-weight: lighter;
+    display: inline-block;
+    position: relative;
+    top: 1.5rem;
+    font-family: sans-serif;
+}
+
+.scroll i {
+    padding: 7rem;
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.scroll::before {
+    background: linear-gradient(to left, gray, #fff)
 }
 
 nav {
