@@ -1,9 +1,9 @@
-$("#about").click(function (e) {
-  e.preventDefault();
+$("#about").click(function () {
+//   e.preventDefault();
 
-  let position = $($(this).attr('href')).offset().top;
+//   let position = $($(this).attr('href')).offset().top;
 
-  $('body, html').animate({
-    scrollTop: position
-  }, 500, 'linear');
+  $('html, body').animate({
+    scrollTop: $(".main-content").offset().top
+  }, 1000);
 });
