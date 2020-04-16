@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>FastFire</title>
   <link rel="stylesheet" href="/app.css">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="./main.js"></script>
 </head>
 
 <body class="body">
@@ -18,8 +20,14 @@
         <a class="nav-bar__item" href="#services">Services</a>
         <a class="nav-bar__item" href="#contact">Contact</a>
       </nav>
-      <div class="logo-container">
-        <img class="logo" src="./img/finallogo.png" alt="company-logo">
+      <div class="hero-container">
+        <img class="hero" src="./img/finallogo.svg" alt="company-logo">
+      </div>
+      <div class="scroll">
+        <a href="#scroll">
+          <i class="fa fa-chevron-down" aria-hidden="true">
+          </i>
+        </a>
       </div>
     </div>
     
@@ -35,7 +43,7 @@
   </div>
 
   <div class="main-content">
-    <h1 class="main-content__header">FAST Fire!</h1>
+<h1 class="main-content__header" id="scroll"></h1>
 
     <main>
       <h2 id="about">About</h2>
@@ -52,22 +60,22 @@
       <h2 id="services">Services</h2>
       <div class="wrapper-services">
         <div class="services-card">
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             Fire Alarm
           </div>
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             Area of Refuge
           </div>
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             Security
           </div>
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             Access Control
           </div>
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             Nurse Call
           </div>
-          <div id="myBtn" class="services-card_item">
+          <div class="services-card_item">
             CCTV
           </div>
         </div>
